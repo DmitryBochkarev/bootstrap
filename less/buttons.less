@@ -47,6 +47,8 @@
   &:active {
     background-image: none;
     outline: 0;
+    padding-top: 5px;
+    padding-bottom: 3px;
     .box-shadow(~"inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05)");
   }
 
@@ -57,6 +59,7 @@
     background-image: none;
     .opacity(65);
     .box-shadow(none);
+    padding: 4px 12px;
   }
 
 }
@@ -71,6 +74,15 @@
   padding: @paddingLarge;
   font-size: @fontSizeLarge;
   .border-radius(@borderRadiusLarge);
+  &.active,
+  &:active {
+    padding-top: 12px;
+    padding-bottom: 10px;
+  }
+  &.disabled,
+  &[disabled] {
+    padding: @paddingLarge;
+  }
 }
 .btn-large [class^="icon-"],
 .btn-large [class*=" icon-"] {
@@ -82,6 +94,15 @@
   padding: @paddingSmall;
   font-size: @fontSizeSmall;
   .border-radius(@borderRadiusSmall);
+  &.active,
+  &:active {
+    padding-top: 3px;
+    padding-bottom: 1px;
+  }
+  &.disabled,
+  &[disabled] {
+    padding: @paddingSmall;
+  }
 }
 .btn-small [class^="icon-"],
 .btn-small [class*=" icon-"] {
@@ -97,6 +118,14 @@
   padding: @paddingMini;
   font-size: @fontSizeMini;
   .border-radius(@borderRadiusSmall);
+  &.active,
+  &:active {
+    padding: @paddingMini;
+  }
+  &.disabled,
+  &[disabled] {
+    padding: @paddingMini;
+  }
 }
 
 
@@ -208,6 +237,7 @@ input[type="submit"].btn {
   background-color: transparent;
   background-image: none;
   .box-shadow(none);
+  padding: 4px 12px;
 }
 .btn-link {
   border-color: transparent;
