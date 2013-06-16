@@ -3359,9 +3359,9 @@ input[type="button"].btn-block {
 .btn-primary {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #58a1f2;
-  *background-color: #2d89ef;
-  border-color: #2d89ef #2d89ef #0f63c1;
+  background-color: #227fe6;
+  *background-color: #106fd9;
+  border-color: #106fd9 #106fd9 #0b4b91;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
@@ -3373,13 +3373,13 @@ input[type="button"].btn-block {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   color: #ffffff;
-  background-color: #2d89ef;
-  *background-color: #157ced;
+  background-color: #106fd9;
+  *background-color: #0f63c1;
 }
 
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #106fd9 \9;
+  background-color: #0d57a9 \9;
 }
 
 .btn-warning {
@@ -3728,7 +3728,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .btn-group.open .btn-primary.dropdown-toggle {
-  background-color: #2d89ef;
+  background-color: #106fd9;
 }
 
 .btn-group.open .btn-warning.dropdown-toggle {
